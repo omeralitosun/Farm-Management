@@ -1,0 +1,15 @@
+package com.farmmanagement.springbootfarmerproject.business.requests;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class UpdateFarmRequest {
+	
+	private String farmId;
+	private String name;
+
+}
